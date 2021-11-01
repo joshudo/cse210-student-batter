@@ -40,3 +40,4 @@ root                    (project root folder)
 ## Authors
 ---
 * # TODO: Add your names and emails here
+1.- Jossue Daniel Ortiz ----- ort21013@byui.edu
