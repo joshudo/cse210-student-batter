@@ -41,3 +41,4 @@ root                    (project root folder)
 ---
 * # TODO: Add your names and emails here
 1.- Jossue Daniel Ortiz ----- ort21013@byui.edu
+2.- Kyle Southwick ----- sou19009@byui.edu
