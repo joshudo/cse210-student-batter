@@ -17,7 +17,7 @@ def main(screen):
     cast = {}
 
     x = int(constants.MAX_X / 2)
-    y = int(constants.MAX_Y - 1)
+    y = int(constants.MAX_Y - 2)
     position = Point(x, y)
     paddle = Actor()
     paddle.set_text("===========")
@@ -32,6 +32,7 @@ def main(screen):
             brick.set_text("*")
             brick.set_position(position)
             cast["brick"].append(brick)
+            
 
     x = int(constants.MAX_X / 2)
     y = int(constants.MAX_Y / 2)
@@ -42,6 +43,7 @@ def main(screen):
     ball.set_position(position)
     ball.set_velocity(velocity)
     cast["ball"] = [ball]
+    
     
     # create the script {key: tag, value: list}
     script = {}
